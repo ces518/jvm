@@ -8,9 +8,9 @@ import java.io.IOException;
 
 import static net.bytebuddy.matcher.ElementMatchers.named;
 
-/**
- * Created by IntelliJ IDEA.
- * User: june
+/**`
+ * Created by IntelliJ IDEA.`
+ * User: june`
  * Date: 16/10/2019
  * Time: 10:33 오후
  **/
@@ -22,6 +22,7 @@ public class Magician {
             ByteBuddy로 전작업을 미리한뒤 pullOut메소드를 실행해야한다.
             ASM을 내부적으로 사용한다.
         * */
+        /*
         try {
             // ByteBuddy를 사용해 Hat 클래스를 재 정의한다.
             new ByteBuddy().redefine(Hat.class)
@@ -32,8 +33,9 @@ public class Magician {
         } catch (IOException e) {
             e.printStackTrace();
         }
+         */
 
         /* 아무것도 출력되지 않는다. */
-//        System.out.println(new Hat().pullOut());
+        System.out.println(new Hat().pullOut());
     }
 }
